@@ -23,4 +23,4 @@ Description:
 	
 	score 				: 23742172807.261585
 	Simulatio Time			: 97028.771 NS
-	Area     			:	244692.090424 um2
+	Area     			: 244692.090424 um2
