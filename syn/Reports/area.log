@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : TPA
+Version: Q-2019.12
+Date   : Sat Mar 16 00:57:21 2024
+****************************************
+
+Library(s) Used:
+
+    slow (File: /usr/cad/designkit/CBDK_IC_Contest_v2.1/SynopsysDC/db/slow.db)
+
+Number of ports:                           47
+Number of nets:                         20134
+Number of cells:                        20097
+Number of combinational cells:          15938
+Number of sequential cells:              4159
+Number of macros/black boxes:               0
+Number of buf/inv:                       1257
+Number of references:                      66
+
+Combinational area:             138669.089821
+Buf/Inv area:                     9666.693061
+Noncombinational area:          106023.000603
+Macro/Black Box area:                0.000000
+Net Interconnect area:         2912528.057587
+
+Total cell area:                244692.090424
+Total area:                    3157220.148010
+1

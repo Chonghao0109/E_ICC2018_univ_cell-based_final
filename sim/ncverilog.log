@@ -1,0 +1,83 @@
+ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Mar 16, 2024 at 01:05:13 CST
+ncverilog
+	testbench.v
+	../syn/Results/TPA_syn.v
+	-v
+	tsmc13_neg.v
+	+define+SDF
+	+define+FSDB
+	+access+r
+	+nc64bit
+Loading snapshot worklib.testfixture:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_P-2019.06, Linux x86_64/64bit, 05/26/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'TPA.fsdb'
+*Verdi* : Begin traversing the MDAs under scope (testfixture.u_TPA), layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+ ----------------------------------------------------------------------
+TEST START !!!
+ ----------------------------------------------------------------------
+  
+ Stage 1. Register Interface Master [ WRITE ] Test ...
+  
+ Stage 1. Result Check ...
+  
+ Stage 1 . PASS!
+  
+ ------------------------------------ 
+ Stage 2. Register Interface Master [ READ + WRITE ] Test ...
+  
+ Stage 2. Result Check ...
+  
+ Stage 2 . PASS!
+  
+ ------------------------------------ 
+ Stage 3. Two-Wire Protocol Slaver [ WRITE ] Test ...
+  
+ Stage 3. Result Check ...
+  
+ Stage 3 . PASS!
+  
+ ------------------------------------ 
+ Stage 4. Two-Wire Protocol Slaver [ READ + WRITE ] Test ...
+  
+ Stage 4. Result Check ...
+  
+ Stage 4 . PASS!
+  
+ ------------------------------------ 
+ Stage 5. RIM and TWS concurrently [ READ + WRITE ] Test ...
+  
+ Stage 5. Result Check ...
+  
+ Stage 5 . PASS!
+  
+ ------------------------------------ 
+ Stage 6. Arbiter [ WRITE ] Test ...
+  
+ Stage 6-1. Arbiter [ WRITE ] Test ...
+  
+ Stage 6-2. Arbiter [ WRITE ] Test ...
+  
+ Stage 6-3. Arbiter [ WRITE ] Test ...
+  
+
+-----------------------------------------------------
+
+Congratulations! All data have been generated successfully!
+
+-------------------------PASS------------------------
+
+Simulation complete via $finish(1) at time 97028771 PS + 0
+./testbench.v:248 $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Mar 16, 2024 at 01:05:18 CST  (total: 00:00:05)
